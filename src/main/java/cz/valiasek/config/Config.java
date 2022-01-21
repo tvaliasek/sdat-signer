@@ -20,13 +20,12 @@ import eu.europa.esig.dss.x509.tsp.MockTSPSource;
 import eu.europa.esig.dss.xades.signature.XAdESService;
 
 import javax.sql.DataSource;
-import java.io.File;
 import java.io.IOException;
 import java.security.KeyStore;
 
 public class Config {
     private KeyStoreSignatureTokenConnection token = new KeyStoreSignatureTokenConnection(
-            new File("self-signed-tsa.p12"),
+           this.getClass().getResourceAsStream("self-signed-tsa.p12"),
         "PKCS12",
             new KeyStore.PasswordProtection("ks-password".toCharArray())
     );
