@@ -15,7 +15,7 @@ Fork this repo and build project with maven, or download precompiled JAR file.
     -c, --pkcs      PKCS#12 certificate with key
     -p, --pwd       PKCS#12 certificate password
     -o, --output    Output signature file
-~~~~
+
 ### Example
 ```
 $ java -jar .\sdat-signer-1.0-jar-with-dependencies.jar -i .\SDAT_VYD_du3V1QJHNQT-70DMYMC0RaFccSMkl8.gzip -c .\signature.pfx -p sdat -o .\SDAT_VYD
