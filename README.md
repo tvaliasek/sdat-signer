@@ -8,7 +8,7 @@ Czech National Bank SDAT reporting system and allows signing
 only by passed PKCS#12 file.
 
 ## Usage
-Fork this repo and build project with maven, or download precompiled JAR file.
+Fork this repo and build project with maven, or download precompiled JAR file. Minumum required JDK version is 17.0
 
 ### JAR file CLI Parameters
     -i, --input     Input GZIP file
